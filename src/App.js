@@ -20,7 +20,7 @@ function App() {
     <div >
     <Navigation />
       <Routes>
-      <Route exact path="/home" element={<Landing />} />
+      <Route exact path="/" element={<Landing />} />
       <Route path="/home" element={<Landing />} />
       <Route exact path="/solartypes" element={<SolarTypes />} />
       <Route exact path="/application" element={<ApplyCustomer />} />

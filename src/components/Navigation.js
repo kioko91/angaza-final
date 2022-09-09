@@ -9,7 +9,7 @@ export default function Navigation() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                    <NavLink exact='true' to ="/home">
+                    <NavLink exact='true' to ="/">
                             <h2 className="text-2xl font-bold">ANGAZA JAMII💡</h2></NavLink>
                         
                         <div className="md:hidden">
@@ -58,7 +58,7 @@ export default function Navigation() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-gray-600 hover:text-red-600">
-                                <NavLink exact='true' to ="/home">Home</NavLink>
+                                <NavLink exact='true' to ="/">Home</NavLink>
                             </li>
                             <li className="text-gray-600 hover:text-red-600">
                                 <NavLink exact='true' to ='/solartypes'>Solar Types</NavLink>
