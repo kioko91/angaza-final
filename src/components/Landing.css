@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.desc{
+    width: auto;
+    height: 100vh;
+    position: relative;
+}
+
+.desc .descc img{
+    width: 98vw;
+    height: 500px;
+    position: relative;
+}
+
+.feel{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    right: 150px;
+    color: #c57a33;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ambulance{
+    margin-bottom: -50px;
+}
+
+/* working on the hero section */
+.hero .rowcon{
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+}
+
+.hero .rowcon .img{
+    float: left;
+}
+
+.hero .rowcon .img img{
+    width: 500px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+.hero .rowcon .content{
+    float: left;
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+.hero .rowcon .content span{
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.hero .rowcon .content h2{
+    color: #51c8ec;
+    font-size: 40px;
+}
+
+.hero .rowcon .content p{
+    padding-right: 8rem;
+    font-size: 20px;
+}
+
+.hero .rowcon .content button{
+    margin-top: 20px;
+    width: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.hero .rowcon .content button a{
+    font-size: 20px;
+}
+
+.hero .rowcon .content #enr{
+    background-color: #022a42;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px #062735;
+}
+
+.hero .rowcon .content #enrl{
+    color: white;
+}
+
+.hero .rowcon .content #ex{
+    background-color: white;
+    border: 1px solid #05b6e2;
+    margin-left: 20px;
+}
+
+.hero .rowcon .content #exp{
+    color: #7b74e0;
+}
